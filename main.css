@@ -19,7 +19,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 	vertical-align: baseline;
 }
 
@@ -156,15 +157,15 @@ section, summary, time, mark, audio, video {
     margin-top: 150px;
 }
 .mainpage >h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 .mainpage >h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 40px;
 }
 .mainpage >p {
     margin-top: 60px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .container {
@@ -176,42 +177,42 @@ section, summary, time, mark, audio, video {
 
 .resumeText{
     margin-top: 70px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 22%;
+    margin-right: 22%;
 }
 
 
 .resumeTitle {
-    margin-top: 100px;
+    margin-top: 40px;
     align-content: center;
     justify-content: center;
 }
 .resumeTitle >h2 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
 
 }
 .resumeTitle > p{
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
 
 }
 .resumeText >  h3{
-    font-size: 30px;
+    font-size: 22px;
     margin: 40px 0 30px 0;
 }
 .resumeText >  h4{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 25px;
 }
 .resumeText > p>  em {
     font-style: italic;
-    font-size: 20px;
+    font-size: 15px;
 }
 .resumeText > ul {
     margin: 20px 0 10px 0;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .contact {
@@ -256,4 +257,27 @@ section, summary, time, mark, audio, video {
 }
 #linkedin {
     font-size: 50px;
+}
+.image {
+    margin-top: 100px;
+}
+.imagemain{
+    justify-content: center;
+    display: flex;
+
+}
+
+.projectMain {
+    margin-top: 80px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.image_emoji{
+    width: 150px;
+}
+ 
+.text1 {
+ font-size: 15px;
+ margin-top: 5px;
 }
